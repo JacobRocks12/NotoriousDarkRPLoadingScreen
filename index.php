@@ -87,9 +87,9 @@ $table = $table2["response"]["players"][0];
             	<h2>Notorious DarkRP</h2>
            	</div>
             <ul id="server-list">
-            	<li><img src="images/server-name.png" alt="Server Name" /> <span id="s-name">Server Name</span></li><!-- Dynamically adds the server name -->
-                <li><img src="images/server-mode.png" alt="Game Mode" /> <span id="s-mode">Server Game Mode</span></li><!-- Dynamically adds game mode name -->
-                <li><img src="images/server-map.png" alt="Map Name" /> <span id="s-map">Server Map Name</span></li><!-- Dynamically adds map name -->
+            	<li><img src="images/server-name.png" alt="Server Name" /> <span id="s-name">Notorious DarkRP</span></li>
+                <li><img src="images/server-mode.png" alt="Game Mode" /> <span id="s-mode">DarkRP</span></li>
+                <li><img src="images/server-map.png" alt="Map Name" /> <span id="s-map">rp_downtown_v4c_v2</span></li>
            	</ul>
      	</div>
         <div id="right-items">
@@ -97,7 +97,7 @@ $table = $table2["response"]["players"][0];
             	<h2>Our Rules</h2>
            	</div>
             <ul id="rules">
-            	<li><span>1</span> Do not bully or harass other players</li>
+            	<li><span>1</span> Be respecful to players and staff</li>
                 <li><span>2</span> Do not be annoying</li>
                 <li><span>3</span> Do not propkill</li>
                 <li><span>4</span> Do not RDM</li>
