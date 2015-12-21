@@ -1,0 +1,31 @@
+/* CSS Document */
+/* Created By CaptainMcMarcus */
+/* For the garrys mod community */
+
+/* This stylesheet allows you to easily find the code that needs editing to change the colour of your header bar */
+/* I use CSS 3 Backgrounds to create the gradient so if you are manually changing them then you probably know exactly what you're doing */
+
+#profile-top {width: 465px; height: 100px; overflow: visible;
+
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+background: url('images/header-bg.png') repeat center top; background-color: RGBA(248,41,41,0.75);}
+
+.title {width: 465px; height: 65px; overflow: visible;
+
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+background: url('images/header-bg.png') repeat center top; background-color: RGBA(248,41,41,0.75);}
+
+#bar {width: 960px; height: 6px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background: RGBA(248,41,41,0.25); margin: 20px 0 0 0;}
+#bar-width {height: 6px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background: RGBA(248,41,41,0.5);}

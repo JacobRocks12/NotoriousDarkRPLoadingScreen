@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+/* Created By CaptainMcMarcus */
+
+/* Let's get some fonts in this house! */
+@font-face {
+    font-family: 'ostrich';
+    src: url('fonts/ostrich-black-webfont.eot');
+    src: url('fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ostrich-black-webfont.woff') format('woff'),
+         url('fonts/ostrich-black-webfont.ttf') format('truetype'),
+         url('fonts/ostrich-black-webfont.svg#ostrich_sansblack') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+html {
+	height: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased;
+}
+
+/* Clearing some default browser settings */
+* {border: 0px; margin: 0px; padding: 0px;}
+a:active {outline:none;}
+:focus {-moz-outline-style:none;}
+.clear {clear:both;}
+
+/* These parts can be easily changed to affect the design */
+body {color: #FFF; font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	background: #FFFFFF; background-size: 100% auto; background-size: cover;}
+
+p {text-align: justify; font-size:16px;}
+p a { text-decoration: underline; color: #CCC;}
+p a:hover { text-decoration: none; color: #FFF;}
+
+/* Core Wrapper which we vertically align */
+.core-wrapper {width: 960px; height: auto;}
+
+#left-items {width: 465px; height: auto; float: left;}
+
+#right-items {width: 465px; height: auto; float: right;}
+
+.left-box {width: 100px; height: 100px; float: left; margin: 0 15px 0 0; background: #dbdbdb;}
+
+#profile-wrap {width: 465px; float: left; margin: 0px;}
+
+#profile-bottom {width: 465px; height: auto; overflow: visible; padding: 0 0 15px 0;
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+
+background-color: RGBA(255,255,255,0.75);}
+
+#profile-bottom p {font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight: 400; text-align: center; color: RGBA(0,0,0,0.5); font-size: 23pt;
+padding-top: 63px;}
+
+
+#avatarimg {border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; 
+overflow: hidden; width: 140px; height: 140px; position: absolute; display: block; margin: 10px 0 0 162px; 
+border: 3px solid #FFFFFF;}
+
+#avatarimg img {width: 140px; height: 140px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
+
+.server {margin: 20px 0 0 0;}
+.title h2 {font-family: 'ostrich', Arial, Helvetica, sans-serif; font-weight: 600; font-size: 34px; line-height: 70px; text-indent: 25px;
+color: RGBA(255,255,255,0.8);}
+
+#server-list {width: 465px; height: auto;}
+#server-list li {width: 465px; height: 65px; list-style: none; background: RGBA(255,255,255,0.5); 
+border-top: 1px solid RGBA(201,201,201,0.75); border-bottom: 1px solid RGBA(255,255,255,0.9);
+
+font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight: 300; text-align: left; color: RGBA(0,0,0,0.5); font-size: 18px;
+overflow: hidden;}
+
+#server-list li img {float: left; margin: 0 20px 0 0;}
+#server-list li span {float: left; line-height: 65px; height: 65px; width: 380px; overflow: hidden;}
+
+#server-list li:last-child {-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+border-bottom: none;
+overflow: hidden;}
+
+#server-list li:first-child {border-top: none;}
+
+#rules {width: 465px; height: auto;}
+#rules li {width: 465px; height: 42px; background: RGBA(255,255,255,0.7); color: RGBA(0,0,0,0.5); line-height: 42px;
+font-size: 18px; text-decoration: none; list-style: none; border-top: 1px solid RGBA(201,201,201,0.75); border-bottom: 1px solid RGBA(255,255,255,0.9);}
+
+#rules li span {width: 50px; height: 42px; display: block; margin: 0 10px 0 0; background: RGBA(255,255,255,0.5); line-height: 42px; text-align: center;
+font-weight: 400; float: left; font-size: 22px; color: RGBA(0,0,0,0.6);}
+
+#rules li:first-child {border-top: none;}
+
+#rules li:last-child {border-bottom: none; overflow: hidden;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;}
+
+#rules li.double {height: 84px; text-indent: 30px 0 0 0; line-height: 40px;}
+#rules li.double span {height: 84px; line-height: 84px;}
+
+#percentage p {float: right; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: RGBA(0,0,0,0.7); font-weight: 400; font-size: 16pt; margin: 4px 0 0 0;}
+#download-item p {float: right; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: RGBA(0,0,0,0.7); font-weight: 400; font-size: 11pt; margin: 8px 10px 0 0;}
+
+
+/* Backgrounds are better implemented now */
+#background-scroll { width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index:-10;}
+.background {background: url('backgrounds/1.jpg'); background-size: 100% auto; background-size: cover; width: 100%; height: 100%;}
+
+#box {width: 465px; height: 438px; background: RGBA(255,255,255,0.7); color: RGBA(0,0,0,0.5);
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;}
+
+#box p {color: RGBA(0,0,0,0.5); width: 435px; height: 408px; margin: 0 auto 0 auto; padding-top: 15px;}
